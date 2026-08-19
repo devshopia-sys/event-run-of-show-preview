@@ -1,0 +1,5 @@
+- Synthetic/local demonstration only.
+- No live event coordination, timers, notifications or integrations.
+- No conflict-resolution policy beyond the declared checks.
+- No guarantee that a generated schedule is operationally complete.
+- Human review remains required before distribution.
