@@ -1,0 +1,22 @@
+name: C16AQ local preview
+description: Request the local preview or report a reproducible limitation
+title: "[C16AQ] "
+labels: [local-preview]
+body:
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Safe scope
+      options:
+        - label: I will not include private event data.
+          required: true
+  - type: dropdown
+    id: request_type
+    attributes:
+      label: Request type
+      options:
+        - I want to try the local preview
+        - I want to share an anonymized run-of-show example
+        - I want to report a limitation
+    validations:
+      required: true
